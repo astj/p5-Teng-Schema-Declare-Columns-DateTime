@@ -10,7 +10,6 @@ use base qw(Class::Data::Inheritable);
 __PACKAGE__->mk_classdata(format_class => 'DateTime::Format::MySQL');
 
 use Teng::Schema::Declare;
-use DateTime::Format::MySQL;
 use Class::Load ();
 
 use Exporter::Lite;
